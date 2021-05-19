@@ -13,7 +13,4 @@ void pointer(int* ptr) {
 	std::cout << " Operation: *ptr++, Value : " << *ptr << " at address: " << ptr << std::endl;
 	*++ ptr;
 	std::cout << " Operation: *++ ptr, Value : " << *ptr << " at address: " << ptr << std::endl;
-	
-
-
 }
