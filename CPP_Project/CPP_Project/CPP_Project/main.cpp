@@ -1,7 +1,15 @@
 #include <iostream>
 #include "helloworld.h"
+#include "pointer.h"
 
 int main() {
-	std::cout << "Hello World!" << std::endl;
+
+	int var;
+	int* ptr = &var;
+
+	helloworld("Hello, World!");
+
+	var = 8;
+	pointer(ptr);
 	std::cin.get();
 }
