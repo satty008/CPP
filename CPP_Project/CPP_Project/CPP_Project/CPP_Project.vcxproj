@@ -144,12 +144,14 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="reference.cpp" />
+    <ClCompile Include="Static.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h" />
     <ClInclude Include="reference.h" />
     <ClInclude Include="helloworld.h" />
     <ClInclude Include="pointer.h" />
+    <ClInclude Include="Static.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
