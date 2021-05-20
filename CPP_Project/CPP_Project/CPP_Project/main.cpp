@@ -2,6 +2,7 @@
 #include "helloworld.h"
 #include "pointer.h"
 #include "reference.h"
+#include "Player.h"
 
 int main() {
 
